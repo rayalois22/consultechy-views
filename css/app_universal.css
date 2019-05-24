@@ -1,0 +1,31 @@
+/* 
+* UNIVERSAL STYLES FOR ALL DEVICES
+*/
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-wrapper > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.form-wrapper input:not([type="submit"]){
+    padding: 10px 14px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
